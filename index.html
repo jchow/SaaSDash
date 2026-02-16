@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top SaaS Companies Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1>Top 10 SaaS Companies by Market Cap</h1>
+        <p>
+          Snapshot dashboard of valuation and efficiency metrics for major publicly traded SaaS businesses.
+        </p>
+      </header>
+
+      <section class="kpis" id="kpiCards"></section>
+
+      <section class="table-section">
+        <div class="table-header">
+          <h2>Company Metrics</h2>
+          <span class="asof">Estimates as of Feb 2026</span>
+        </div>
+        <div class="table-wrap">
+          <table id="saasTable">
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Market Cap ($B)</th>
+                <th>TTM P/E</th>
+                <th>NTM P/E</th>
+                <th>Price / FCF</th>
+                <th>Price / OCF</th>
+                <th>Rule of 40 (%)</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
